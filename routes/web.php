@@ -1,31 +1,24 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
-
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('home');
+})->name('home');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/projects/yourspace', function () {
+    return view('projects.yourspace');
+})->name('yourspace');
 
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-});
+Route::get('/projects/ux', function () {
+    return view('projects.ux');
+})->name('ux');
 
-require __DIR__.'/auth.php';
+Route::get('/projects/dmmkimani', function () {
+    return view('projects.dmmkimani');
+})->name('dmmkimani');
+
+Route::get('/img/{filename}', function ($filename) {
+    $path = public_path('assets/img/') . $filename;
+    return readfile($path);
+})->name('img.show');
