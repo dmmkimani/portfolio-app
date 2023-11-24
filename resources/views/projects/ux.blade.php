@@ -5,15 +5,6 @@
 
     <p class="violet">Personas and Storyboards</p>
 
-    <div style="margin-top: 35px;">
-        <p style="color: Gold">Techniques Used:</p>
-    </div>
-
-    <div style="display: inline-block; margin-top: 10px; text-align: center;">
-        <h5 class="gold" style="margin-bottom: 5px;">Personas</h5>
-        <h5 class="gold" style="margin-bottom: 5px;">Storyboarding</h5>
-    </div>
-
     <div class="projectDesc">
         <p class="body">
             As an undergraduate, my coursework for a UX module was to ideate a

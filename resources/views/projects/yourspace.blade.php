@@ -5,22 +5,20 @@
 
     <p class="violet">Meeting Room Booking Application</p>
 
-    <div style="margin-top: 50px;">
-        <p style="color: Gold">Github Links:</p>
+    <div style="margin-top: 5px;">
+        <a class="git" href="https://www.github.com/dmmkimani/your-space-ui/" target="_blank" style="display: inline-block;">
+            <div>
+                <i class="fa fa-github" style="font-size:32px;"></i>
+            </div>
+        </a>
+        <a class="git" href="https://www.github.com/dmmkimani/your-space-server" target="_blank" style="display: inline-block;">
+            <div>
+                <i class="fa fa-github" style="font-size:32px;"></i>
+            </div>
+        </a>
     </div>
 
-    <a class="git" href="https://www.github.com/dmmkimani/yourspace_ui/" target="_blank" style="display: inline-block;">
-        <div>
-            <i class="fa fa-github" style="font-size:32px;"></i>
-        </div>
-    </a>
-    <a class="git" href="https://www.github.com/dmmkimani/yourspace_server" target="_blank" style="display: inline-block;">
-        <div>
-            <i class="fa fa-github" style="font-size:32px;"></i>
-        </div>
-    </a>
-
-    <div style="margin-top: 35px;">
+    <div style="margin-top: 25px;">
         <p style="color: Gold">Technologies Used:</p>
     </div>
 

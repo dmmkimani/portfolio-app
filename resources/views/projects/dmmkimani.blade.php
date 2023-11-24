@@ -5,17 +5,15 @@
 
     <p class="violet">Portfolio Website</p>
 
-    <div style="margin-top: 50px;">
-        <p style="color: Gold">Github Link:</p>
+    <div style="margin-top: 5px;">
+        <a class="git" href="https://www.github.com/dmmkimani/dmmkimani.com" target="_blank" style="display: inline-block;">
+            <div>
+                <i class="fa fa-github" style="font-size:32px;"></i>
+            </div>
+        </a>
     </div>
 
-    <a class="git" href="https://www.github.com/dmmkimani/portfolio-app" target="_blank" style="display: inline-block;">
-        <div>
-            <i class="fa fa-github" style="font-size:32px;"></i>
-        </div>
-    </a>
-
-    <div style="margin-top: 35px;">
+    <div style="margin-top: 25px;">
         <p style="color: Gold">Technology Used:</p>
     </div>
 

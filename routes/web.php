@@ -18,6 +18,10 @@ Route::get('/projects/dmmkimani', function () {
     return view('projects.dmmkimani');
 })->name('dmmkimani');
 
+Route::get('/projects/simulated-driving-system', function () {
+    return view('projects.sds');
+})->name('sds');
+
 Route::get('/img/{filename}', function ($filename) {
     $path = public_path('assets/img/') . $filename;
     return readfile($path);

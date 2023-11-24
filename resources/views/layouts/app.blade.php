@@ -79,7 +79,7 @@
 
             div.skills {
                 display: inline-block; 
-                width: 625px;
+                width: 650px;
                 text-align: left;
                 vertical-align: middle;
             }
@@ -128,7 +128,7 @@
             }
 
             div.comment {
-                width: 350px; 
+                width: 400px; 
                 display: inline-block; 
                 vertical-align: middle;
                 text-align: right;
@@ -154,10 +154,19 @@
                 background-color: MidnightBlue;
             }
 
-            div.slideshow, div.logo {
+            div.logo {
                 display: grid;
                 grid-template: 1fr / 1fr;
                 place-items: center;
+                text-align: center;
+                max-width: 100px;
+                margin-top: 30px;
+            }
+
+            div.slideshow {
+                display: grid;
+                grid-template: 1fr / 1fr;
+                place-items: top;
                 text-align: center;
                 max-width: 100px;
                 margin-top: 30px;
@@ -172,7 +181,6 @@
                 min-width: 1178px;
                 padding-left: 35px;
                 padding-right: 35px;
-                z-index = -15;
             }
 
             div.slideCtrl {
@@ -230,6 +238,22 @@
                 padding-right: 35px;
             }
 
+            img.sds {
+                display: inline-block;
+                min-height: 350px;
+                max-height: 350px;
+                margin-bottom: 30px;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+
+            iframe.video {
+                margin: auto;
+                display: block;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
             .git {
                 padding: 15px;
             }
@@ -260,7 +284,7 @@
             }
 
             h3 {
-                font-size: 28px;
+                font-size: 24px;
                 color: Gold;
             }
 
@@ -341,7 +365,7 @@
         <script>
             window.onscroll = function() {
                 var currentScrollPos = window.pageYOffset;
-                if (currentScrollPos > 350) {
+                if (currentScrollPos > 150) {
                     document.getElementById("header").style.top = "-82.5px";
                 } else {
                     document.getElementById("header").style.top = "0px";
