@@ -18,7 +18,7 @@
     <div style="margin-top: 75px;">
         <p class="violet">I'm </p><p class="gold">David </p><p class="violet">but you can call me </p><p class="gold">Mike </p><p class="violet">(everyone does).</p><br>
         <p class="violet">I recently completed my </p><p class="gold">MSc in Advanced Computer Science with Distinction</p><br>
-        <p class="violet">and am now eager to <p class="gold">explore job opportunities </p><p class="violet">in the field.</p>
+        <p class="violet">and am now eager to <p class="gold">explore job opportunities </p><p class="violet">in the field</p><p class="violet">.</p>
     </div>
 
     <div style="margin-top: 75px;">
