@@ -206,7 +206,7 @@
             img.arrow {
                 min-height: 50px;
                 max-height: 50px;
-                transform: rotate(270deg);
+                transform: rotate(90deg);
                 margin-top: 55px;
             }
 
