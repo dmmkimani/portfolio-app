@@ -38,7 +38,7 @@ jobs:
         SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
         SOURCE: "./"
         REMOTE_HOST: ${{ secrets.EC2_PUBLIC_IP }}
-        REMOTE_USER: "dmmk"
+        REMOTE_USER: "ubuntu"
         TARGET: "/var/www/html/dmmkimani.com"
 
     - name: Revoke IP
