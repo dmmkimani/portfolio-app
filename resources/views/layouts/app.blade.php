@@ -25,7 +25,7 @@
                 top: 0px;
                 min-height: 82.5px;
                 max-height: 82.5px;
-                min-width: 1450px;
+                min-width: 1500px;
                 background-color: DarkBlue;
                 text-align: center;
                 padding: 15px;
