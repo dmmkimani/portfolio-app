@@ -17,8 +17,8 @@
 
     <div style="margin-top: 75px;">
         <p class="violet">I'm </p><p class="gold">David Mike Mwaura Kimani </p><p class="violet">but you can call me </p><p class="gold">Mike </p><p class="violet">(everyone does).</p><br>
-        <p class="violet">I recently completed my </p><p class="gold">MSc in Advanced Computer Science with Distinction</p><br>
-        <p class="violet">and am now eager to <p class="gold">explore job opportunities </p><p class="violet">in the field.</p>
+        <p class="violet">I've recently completed my </p><p class="gold">MSc in Advanced Computer Science with Distinction </p><p class="violet">and</p><br>
+        <p class="violet">am now eager to </p><p class="gold">apply my skills </p><p class="violet">and </p><p class="gold">continuously learn </p><p class="violet">in a </p><p class="gold">professional environment</p><p class="violet">.</p>
     </div>
 
     <div style="margin-top: 75px;">
