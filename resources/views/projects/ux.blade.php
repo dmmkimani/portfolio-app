@@ -29,8 +29,4 @@
         <div class="empty"></div>
         @include('slideshows.ux', ['showNum' => '3', 'code' => 'fields', 'name' => 'Jacqueline Fields', 'numSlides' => 4])
     </div>
-
-    <div style="margin-top: 75px;">
-        <p style="color: DarkViolet">.</p>
-    </div>
 @endsection

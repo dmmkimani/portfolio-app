@@ -5,7 +5,7 @@
 
     <p class="violet">Meeting Room Booking Application</p>
 
-    <div style="margin-top: 5px;">
+    <div>
         <a class="git" href="https://www.github.com/dmmkimani/your-space-ui/" target="_blank" style="display: inline-block;">
             <div>
                 <i class="fa fa-github" style="font-size:32px;"></i>
@@ -18,6 +18,7 @@
         </a>
     </div>
 
+    <!--
     <div style="margin-top: 25px;">
         <p style="color: Gold">Technologies Used:</p>
     </div>
@@ -38,6 +39,7 @@
             <h5 class="gold">Cloud Firestore</h5>
         </div>
     </div>
+    -->
 
     <div class="projectDesc">
         <p class="body">
@@ -58,9 +60,5 @@
         <div style="margin: auto;">
             @include('slideshows.yourspace')
         </div>
-    </div>
-
-    <div style="margin-top: 75px;">
-        <p style="color: DarkViolet">.</p>
     </div>
 @endsection

@@ -28,7 +28,6 @@
                 min-width: 1500px;
                 background-color: DarkBlue;
                 text-align: center;
-                padding: 15px;
                 border-bottom: 3px solid DarkViolet;
                 font-family: 'Roboto Mono', sans-serif;
                 font-size: 22px;
@@ -38,20 +37,24 @@
             #content {
                 min-height: 100%;
                 min-width: 1500px;
-                padding-top: 45px;
+                padding-top: 30px;
                 background-color: MidnightBlue;
                 text-align: center;
                 font-family: 'Roboto Mono', sans-serif;
             }
 
-            li.dmmk {
+            li.logo {
                 float: left;
                 margin-left: 250px;
-                padding-bottom: 1.5px;
+                padding-bottom: 1.9px;
             }
 
             li.socials {
                 float: right;
+            }
+
+            ul.nav {
+                padding: 15px;
             }
 
             ul.nav>li {
@@ -65,8 +68,8 @@
 
             ul.nav>li>a>div {
                 width: 100%;
-                margin-top: 15px;
-                margin-bottom: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
             }
 
             div.empty {
@@ -142,7 +145,7 @@
                 padding-bottom: 10px;
                 background-color: DarkBlue;
                 text-align: center;
-                margin-top: 50px;
+                margin-top: 25px;
                 border-top: 3px solid DarkViolet;
                 border-bottom: 3px solid DarkViolet;
                 border-left: 3px solid DarkViolet;
@@ -247,7 +250,7 @@
                 margin-right: 15px;
             }
 
-            iframe.video {
+            iframe.embedded {
                 margin: auto;
                 display: block;
                 margin-top: 30px;
@@ -280,7 +283,7 @@
                 display: inline;
                 writing-mode: vertical-rl;
                 text-orientation: upright;
-                font-size: 38px;
+                font-size: 34px;
             }
 
             h3 {
@@ -333,7 +336,7 @@
     <body class="font-sans antialiased">
         <div id="header">
             <ul class="nav">
-                <li class="dmmk">
+                <li class="logo">
                     <a href="{{route('home')}}">
                         <div>
                             <h1 class="gold">dmmkimani</h1><h1 class="violet">.com</h1>
@@ -359,6 +362,10 @@
         <div id="content">
             <div style="margin: auto; width: 1500px;">
                 @yield('content')
+            </div>
+
+            <div style="margin-top: 75px;">
+                <p style="color: DarkViolet">.</p>
             </div>
         </div>
 

@@ -5,7 +5,7 @@
 
     <p class="violet">Portfolio Website</p>
 
-    <div style="margin-top: 5px;">
+    <div>
         <a class="git" href="https://www.github.com/dmmkimani/dmmkimani.com" target="_blank" style="display: inline-block;">
             <div>
                 <i class="fa fa-github" style="font-size:32px;"></i>
@@ -13,6 +13,7 @@
         </a>
     </div>
 
+    <!--
     <div style="margin-top: 25px;">
         <p style="color: Gold">Technology Used:</p>
     </div>
@@ -23,6 +24,7 @@
             <h5 class="gold">Laravel</h5>
         </div>
     </div>
+    -->
 
     <div class="projectDesc">
         <p class="body">
@@ -31,9 +33,5 @@
         <p class="body">
             You are using it right now.
         </p>
-    </div>
-
-    <div style="margin-top: 75px;">
-        <p style="color: DarkViolet">.</p>
     </div>
 @endsection

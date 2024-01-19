@@ -7,7 +7,7 @@
         <img class="arrow" src="{{route('img.show', ['filename'=>'arrow.gif'])}}">
     </div>
 
-    <div style="margin-top: 115px;">
+    <div style="margin-top: 75px;">
         <p style="color: DarkViolet">...</p>
     </div>
 
@@ -52,29 +52,6 @@
     </div>
 
     <div style="margin-top: 75px;">
-        <a href="{{route('sds')}}">
-            <div class="rounded project">
-                <h4>Simulated Driving System</h4>
-            </div>
-        </a>
-        <a href="{{route('dmmkimani')}}">
-            <div class="rounded project">
-                <h4>dmmkimani.com</h4>
-            </div>
-        </a>
-        <a href="{{route('ux')}}">
-            <div class="rounded project">
-                <h4>UX Design Work</h4>
-            </div>
-        </a>
-        <a href="{{route('yourspace')}}">
-            <div class="rounded project">
-                <h4>YourSpace</h4>
-            </div>
-        </a>
-    </div>
-
-    <div style="margin-top: 75px;">
-        <p style="color: DarkViolet">.</p>
+        @include('projects')
     </div>
 @endsection

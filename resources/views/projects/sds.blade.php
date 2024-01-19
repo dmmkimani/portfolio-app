@@ -5,7 +5,7 @@
 
     <p class="violet">Three-Wheeled Vehicle</p>
 
-    <div style="margin-top: 5px;">
+    <div>
         <a class="git" href="https://www.github.com/dmmkimani/simulated-driving-system/" target="_blank" style="display: inline-block;">
             <div>
                 <i class="fa fa-github" style="font-size:32px;"></i>
@@ -24,10 +24,6 @@
             @include('slideshows.sds')
         </div>
 
-        <iframe class="video" width="575" height="325" src="https://www.youtube.com/embed/GF5PHqHbHw8?si=5gqg3MCxMWbs9Wz9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-
-    <div style="margin-top: 75px;">
-        <p style="color: DarkViolet">.</p>
+        <iframe class="embedded" width="575" height="325" src="https://www.youtube.com/embed/GF5PHqHbHw8?si=5gqg3MCxMWbs9Wz9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 @endsection
