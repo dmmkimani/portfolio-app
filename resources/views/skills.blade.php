@@ -26,6 +26,9 @@
     <div class="rounded skill" onmouseover="changeText('I recognise the importance of a database design that is both efficient and scalable.')" onmouseout="changeback()">
         <h4>SQL</h4>
     </div>
+    <div class="rounded skill" onmouseover="changeText('Specifically, document databases such as Cloud Firestore.')" onmouseout="changeback()">
+        <h4>NoSQL</h4>
+    </div>
     <div class="rounded skill" onmouseover="changeText('Used to implement the slideshows for this website. Check my GitHub to see how!')" onmouseout="changeback()">
         <h4>Blade</h4>
     </div>

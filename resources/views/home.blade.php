@@ -1,15 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="logo">
-        <h2 class="gold">dmmkimani</h2>
-        <h2 class="violet">.com</h2>
-        <img class="arrow" src="{{route('img.show', ['filename'=>'arrow.gif'])}}">
+    <div id="hero-section">
+        @include('hero')
     </div>
 
-    <div style="margin-top: 75px;">
-        <p style="color: DarkViolet">...</p>
-    </div>
+    <p style="color: DarkViolet">...</p>
 
     <div style="margin-top: 75px;">
         <h3>Hello!</h3>
@@ -54,4 +50,11 @@
     <div style="margin-top: 75px;">
         @include('projects')
     </div>
+
+    <script>
+        document.getElementById("hero-section").style.height = `${window.innerHeight - 50}px`;
+        window.onresize = function () {
+            document.getElementById("hero-section").style.height = `${window.innerHeight - 50}px`;
+        }
+    </script>
 @endsection

@@ -20,6 +20,7 @@
             }
 
             #header {
+                z-index: 1;
                 margin: auto;
                 position: sticky;
                 top: 0px;
@@ -35,12 +36,33 @@
             }
 
             #content {
+                z-index: 2;
                 min-height: 100%;
                 min-width: 1500px;
                 padding-top: 30px;
                 background-color: MidnightBlue;
                 text-align: center;
                 font-family: 'Roboto Mono', sans-serif;
+            }
+
+            #hero-section {
+                display: grid;
+                grid-template: 1fr / 1fr;
+                place-items: center;
+                text-align: center;
+            }
+
+            #logo {
+                position: absolute;
+                top: 50%
+            }
+
+            #arrow {
+                position: absolute;
+                bottom: 15px;
+                min-height: 50px;
+                max-height: 50px;
+                transform: rotate(270deg);
             }
 
             li.logo {
@@ -60,6 +82,7 @@
             ul.nav>li {
                 width: 250px;
                 display: inline-block;
+                transition: all 0.125s;
             }
 
             ul.nav>li:hover {
@@ -76,15 +99,15 @@
                 margin-top: 50px;
             }
 
-            div.logo {
-                margin: auto;
-            }
-
             div.skills {
                 display: inline-block; 
-                width: 650px;
+                width: 700px;
                 text-align: left;
                 vertical-align: middle;
+            }
+
+            div.skill {
+                width: fit-content;
             }
 
             div.rounded {
@@ -122,10 +145,6 @@
                 background-color: DarkBlue;
             }
 
-            div.skill {
-                width: fit-content;
-            }
-
             div.project {
                 width: 650px;
             }
@@ -145,7 +164,7 @@
                 padding-bottom: 10px;
                 background-color: DarkBlue;
                 text-align: center;
-                margin-top: 25px;
+                margin-top: 15px;
                 border-top: 3px solid DarkViolet;
                 border-bottom: 3px solid DarkViolet;
                 border-left: 3px solid DarkViolet;
@@ -155,15 +174,6 @@
 
             div.projectDesc:hover {
                 background-color: MidnightBlue;
-            }
-
-            div.logo {
-                display: grid;
-                grid-template: 1fr / 1fr;
-                place-items: center;
-                text-align: center;
-                max-width: 100px;
-                margin-top: 30px;
             }
 
             div.slideshow {
@@ -204,13 +214,6 @@
             img {
                 margin: auto;
                 display: block;
-            }
-
-            img.arrow {
-                min-height: 50px;
-                max-height: 50px;
-                transform: rotate(270deg);
-                margin-top: 55px;
             }
 
             img.tech {
@@ -261,12 +264,6 @@
                 padding: 15px;
             }
 
-            .arrow {
-                padding-left: 2px;
-                font-size: 54px;
-                color: DarkViolet;
-            }
-
             .gold {
                 color: Gold;
             }
@@ -281,8 +278,9 @@
 
             h2 {
                 display: inline;
-                writing-mode: vertical-rl;
-                text-orientation: upright;
+                letter-spacing: 42.5px;
+                /* writing-mode: vertical-rl;
+                text-orientation: upright; */
                 font-size: 34px;
             }
 
@@ -335,29 +333,7 @@
     
     <body class="font-sans antialiased">
         <div id="header">
-            <ul class="nav">
-                <li class="logo">
-                    <a href="{{route('home')}}">
-                        <div>
-                            <h1 class="gold">dmmkimani</h1><h1 class="violet">.com</h1>
-                        </div>
-                    </a>
-                </li>
-                <li class="socials" style="margin-right: 250px;">
-                    <a href="https://www.linkedin.com/in/dmmkimani/" target="_blank">
-                        <div>
-                            <i class="fa fa-linkedin-square" style="font-size:32px;"></i>
-                        </div>
-                    </a>
-                </li>
-                <li class="socials">
-                    <a href="https://www.github.com/dmmkimani/" target="_blank">
-                        <div>
-                            <i class="fa fa-github" style="font-size:32px;"></i>
-                        </div>
-                    </a>
-                </li>
-            </ul>
+            @include('header')
         </div>
         <div id="content">
             <div style="margin: auto; width: 1500px;">
@@ -371,8 +347,15 @@
 
         <script>
             window.onscroll = function() {
+                var hideHeaderHeight = window.innerHeight;
+
+                var projectDesc = document.querySelector('.projectDesc');
+                if (projectDesc != null) {
+                    hideHeaderHeight = projectDesc.getBoundingClientRect().top;
+                }
+
                 var currentScrollPos = window.pageYOffset;
-                if (currentScrollPos > 150) {
+                if (currentScrollPos > hideHeaderHeight) {
                     document.getElementById("header").style.top = "-82.5px";
                 } else {
                     document.getElementById("header").style.top = "0px";
