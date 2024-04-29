@@ -336,7 +336,7 @@
             @include('header')
         </div>
         <div id="content">
-            <div style="margin: auto; width: 1500px;">
+            <div style="margin: auto; width: 100%;">
                 @yield('content')
             </div>
 

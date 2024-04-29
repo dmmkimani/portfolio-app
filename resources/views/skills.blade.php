@@ -24,7 +24,7 @@
         <h4>Laravel</h4>
     </div>
     <div class="rounded skill" onmouseover="changeText('I recognise the importance of a database design that is both efficient and scalable.')" onmouseout="changeback()">
-        <h4>SQL</h4>
+        <h4>PostgreSQL</h4>
     </div>
     <div class="rounded skill" onmouseover="changeText('Document databases such as Cloud Firestore in particular.')" onmouseout="changeback()">
         <h4>NoSQL</h4>
@@ -32,14 +32,14 @@
     <div class="rounded skill" onmouseover="changeText('Currently leveraging PHP to build a repair maintenance system.')" onmouseout="changeback()">
         <h4>PHP</h4>
     </div>
+    <div class="rounded skill" onmouseover="changeText('I always employ Git branching strategies to efficiently manage development tasks and isolate bug fixes')" onmouseout="changeback()">
+        <h4>Git</h4>
+    </div>
     <div class="rounded skill" onmouseover="changeText('I have a passion for UX that stems from a want to understand the user.')" onmouseout="changeback()">
         <h4>UX</h4>
     </div>
     <div class="rounded skill" onmouseover="changeText('Go to my GitHub to see the HTML for this website!')" onmouseout="changeback()">
-        <h4>HTML</h4>
-    </div>
-    <div class="rounded skill" onmouseover="changeText('Go to my GitHub to see the CSS for this website!')" onmouseout="changeback()">
-        <h4>CSS</h4>
+        <h4>HTML/CSS</h4>
     </div>
     <div class="rounded skill" onmouseover="changeText('The Incremental Development Model in particular.')" onmouseout="changeback()">
         <h4>Agile Methodologies</h4>
