@@ -29,8 +29,8 @@
     <div class="rounded skill" onmouseover="changeText('Document databases such as Cloud Firestore in particular.')" onmouseout="changeback()">
         <h4>NoSQL</h4>
     </div>
-    <div class="rounded skill" onmouseover="changeText('Used to implement the slideshows for this website. Check my GitHub to see how!')" onmouseout="changeback()">
-        <h4>Blade</h4>
+    <div class="rounded skill" onmouseover="changeText('Currently leveraging PHP to build a repair maintenance system.')" onmouseout="changeback()">
+        <h4>PHP</h4>
     </div>
     <div class="rounded skill" onmouseover="changeText('I have a passion for UX that stems from a want to understand the user.')" onmouseout="changeback()">
         <h4>UX</h4>
