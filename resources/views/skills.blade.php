@@ -32,13 +32,13 @@
     <div class="rounded skill" onmouseover="changeText('Currently leveraging PHP to build a repair maintenance system.')" onmouseout="changeback()">
         <h4>PHP</h4>
     </div>
-    <div class="rounded skill" onmouseover="changeText('I always employ Git branching strategies to efficiently manage development tasks and isolate bug fixes')" onmouseout="changeback()">
+    <div class="rounded skill" onmouseover="changeText('I always employ Git branching strategies to efficiently manage development tasks and isolate bug fixes.')" onmouseout="changeback()">
         <h4>Git</h4>
     </div>
     <div class="rounded skill" onmouseover="changeText('I have a passion for UX that stems from a want to understand the user.')" onmouseout="changeback()">
         <h4>UX</h4>
     </div>
-    <div class="rounded skill" onmouseover="changeText('Go to my GitHub to see the HTML for this website!')" onmouseout="changeback()">
+    <div class="rounded skill" onmouseover="changeText('Go to my GitHub to see the HTML and CSS for this website!')" onmouseout="changeback()">
         <h4>HTML/CSS</h4>
     </div>
     <div class="rounded skill" onmouseover="changeText('The Incremental Development Model in particular.')" onmouseout="changeback()">
